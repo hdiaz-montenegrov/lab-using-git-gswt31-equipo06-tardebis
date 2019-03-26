@@ -1,10 +1,12 @@
 html,body {
 height:100%;
-background:white;
+background : #333333;
+color : white;
 }
 header {
 display:block;
-background:#d7e0e9;
+background : #b3b3b3;
+color : black;
 padding:10px 0px;
 }
 section {
@@ -13,7 +15,7 @@ float: left;
 overflow: auto;
 padding-bottom: 60px;
 padding-top:30px;
-color: black;
+color: white;
 }
 footer {
 position: relative;
@@ -21,7 +23,10 @@ margin-top: -50px;
 height: 40px;
 padding:5px 0px;
 clear: both;
-background: #d7e0e9;
+background: #b3b3b3;
 text-align: center;
 color: black;
+}
+a{
+	color : #7094db;
 }
